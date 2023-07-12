@@ -14,6 +14,19 @@ img{
 #nowrap-2{
     flex-wrap: nowrap;
 }
+.side-bar{
+    width: 80px;
+    height: calc(100vh - 70px);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+    position: fixed;
+    bottom: 0;
+}
+.down-side-bar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 
 
@@ -47,5 +60,13 @@ img{
 
 
 
-
-
+/* DESKTOP */
+@media screen and (min-width: 992px){
+    .side-bar{
+        width: 150px;
+    }
+    
+    .side-bar span{
+        display: block;
+    }
+}
