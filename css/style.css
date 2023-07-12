@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;  
+    position: fixed;
 }
-
 img{
     max-width: 100%;
 }
@@ -10,6 +10,7 @@ img{
 }
 #nowrap{
     flex-wrap: nowrap;
+    position: fixed;
 }
 #nowrap-2{
     flex-wrap: nowrap;
@@ -27,10 +28,43 @@ img{
     bottom: 0;
     width: 100%;
 }
-
-
-
-
+.main-content{
+    height: calc(100vh - 70px);
+    width: calc(100% - 80px);
+    border: red dashed;
+    position: absolute;
+    right: 0;
+    margin-top: 70px;
+}
+main{
+    position: relative;
+}
+.header-main{
+    background-color: #1B72E8;
+}
+.small-button{
+    border: transparent;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 15px;
+    padding: 0px 6px;
+    border-radius: 20px;
+}
+.small-button-circle{
+    border: transparent;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 15px;
+    padding: 0px 6px;
+    border-radius: 50%;
+}
+.button-b-white{
+    color: white;
+    border: white solid;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
 
 
 
@@ -68,5 +102,8 @@ img{
     
     .side-bar span{
         display: block;
+    }
+    .main-content{
+        width: calc(100% - 150px);
     }
 }
