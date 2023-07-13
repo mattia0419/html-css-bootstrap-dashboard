@@ -94,7 +94,15 @@ main{
     background-color: white;
     border-radius: 6px;
 }
-
+.border-check{
+    border-bottom: solid 1px #D8D8D8;
+    padding: 8px;
+}
+.b-solid{
+    border: #D8D8D8 solid 1px;
+    border-radius: 6px;
+    background-color: white;
+}
 
 
 
