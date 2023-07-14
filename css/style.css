@@ -83,6 +83,9 @@ main{
     border-bottom-right-radius: 6px;
     background-color: white;
 }
+.width-table{
+    width: 40%;
+}
 .red-circle{
     width: 25px;
     height: 25px;
@@ -102,6 +105,12 @@ main{
     border: #D8D8D8 solid 1px;
     border-radius: 6px;
     background-color: white;
+}
+th img{
+    width: 20px;
+}
+th h6{
+    display: inline-block;
 }
 
 
